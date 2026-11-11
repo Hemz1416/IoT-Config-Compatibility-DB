@@ -6,16 +6,6 @@
 - **Hitha Shree Suresh** (SRN: `PES2UG24CS196`)  
 - **Hemant Ram Nelapati** (SRN: `PES2UG24CS192`)  
 
-> **Repository status — Hemant Ram Nelapati's contribution (`PES2UG24CS192`).**
-> This repository currently contains only Hemant's share of the project:
-> - `frontend/` — Next.js 15 web application (API routes, pgvector search UI, trigger audit, DB explorer)
-> - `database/hemant_vector_and_triggers.sql` — pgvector extension, `ALTER TABLE`, PL/pgSQL trigger, HNSW index
-> - `database/hemant_validation_queries.sql` — trigger verification `UPDATE`, ACID `DELETE`, `<=>` vector search
-> - `evidence/` and `9_DDL.pdf` — execution evidence screenshots and evidence PDF generator
-> - `SCREENSHOT_COMMANDS_GUIDE.md` — terminal execution & screenshot guide
->
-> Hitha Shree Suresh's share (ER diagram, normalization, base tables & constraints, views, seed data, analytical queries, design docs) will be added separately. Files listed in the structure below that are not present yet belong to that part.
-
 **Database Paradigm:** SQL + Vector Database  
 **Technologies:** PostgreSQL 16.15, `pgvector` extension (v0.6.0)  
 
